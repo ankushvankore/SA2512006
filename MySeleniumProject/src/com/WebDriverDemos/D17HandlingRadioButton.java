@@ -13,8 +13,7 @@ public class D17HandlingRadioButton {
 
 		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 
-		WebElement gnFemale = driver
-				.findElement(By.xpath("/html/body/div[2]/div[2]/form/div/div[9]/div/label[2]/input"));
+		WebElement gnFemale = driver.findElement(By.xpath("/html/body/div[2]/div[2]/form/div/div[9]/div/label[2]/input"));
 
 		System.out.println("-------------- Before --------------");
 		System.out.println("Selected: " + gnFemale.isSelected());

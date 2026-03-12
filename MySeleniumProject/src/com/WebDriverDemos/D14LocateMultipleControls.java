@@ -15,7 +15,6 @@ public class D14LocateMultipleControls {
 		
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		
-		//List<WebElement>textBoxes = driver.findElements(By.className("form-control"));
 		List<WebElement>textBoxes = driver.findElements(By.xpath("/html/body/div/div/section/section/div[1]/div/input"));
 		System.out.println("Total Text Boxes: " + textBoxes.size());
 		
