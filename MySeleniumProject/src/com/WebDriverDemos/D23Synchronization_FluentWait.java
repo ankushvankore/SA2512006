@@ -28,7 +28,7 @@ public class D23Synchronization_FluentWait {
 
 		wait.withTimeout(Duration.ofSeconds(10))
 		.ignoring(NoSuchElementException.class)
-		.pollingEvery(Duration.ofMillis(1))
+		.pollingEvery(Duration.ofMillis(100))
 		.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("password")))).sendKeys("admin123");
 		
 		//driver.findElement(By.name("password")).sendKeys("admin123");
