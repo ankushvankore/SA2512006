@@ -13,7 +13,8 @@ public class D35NavigationMethods {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get("https://google.com");
+		//driver.get("https://google.com");
+		driver.navigate().to("https://www.google.com");
 		
 		driver.findElement(By.partialLinkText("How")).click();
 		Thread.sleep(2000);

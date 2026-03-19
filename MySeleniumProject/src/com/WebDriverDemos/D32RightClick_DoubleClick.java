@@ -22,9 +22,9 @@ public class D32RightClick_DoubleClick {
 		Actions act = new Actions(driver);
 		
 		//Right Click
-		WebElement rightClick = driver.findElement(By.className("btn-neutral"));
-		//act.moveToElement(rightClick).contextClick().perform();
-		act.contextClick(rightClick).perform();
+		WebElement rightClickButton = driver.findElement(By.className("btn-neutral"));
+		//act.moveToElement(rightClickButton).contextClick().perform();
+		act.contextClick(rightClickButton).perform();
 		
 		List<WebElement>menus = driver.findElements(By.xpath("//*[@id=\"authentication\"]/ul/li/span"));
 		System.out.println("----------- Menus ------------");
@@ -35,9 +35,9 @@ public class D32RightClick_DoubleClick {
 		driver.findElement(By.id("authentication")).click();
 		
 		//Double click
-		WebElement doubleclick = driver.findElement(By.xpath("//button[@ondblclick=\"myFunction()\"]"));
-		//act.moveToElement(doubleclick).doubleClick().perform();
-		act.doubleClick(doubleclick).perform();
+		WebElement doubleclickButton = driver.findElement(By.xpath("//button[@ondblclick=\"myFunction()\"]"));
+		//act.moveToElement(doubleclickButton).doubleClick().perform();
+		act.doubleClick(doubleclickButton).perform();
 		
 		Alert alt = driver.switchTo().alert();
 		System.out.println(alt.getText());
