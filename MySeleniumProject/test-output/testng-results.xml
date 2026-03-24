@@ -1,96 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-23T22:21:26 IST" name="Default suite" finished-at="2026-03-23T22:21:27 IST" duration-ms="372">
+  <suite started-at="2026-03-24T22:21:19 IST" name="Online Shopping Application Tests" finished-at="2026-03-24T22:21:55 IST" duration-ms="35159">
     <groups>
     </groups>
-    <test started-at="2026-03-23T22:21:26 IST" name="Default test" finished-at="2026-03-23T22:21:27 IST" duration-ms="372">
-      <class name="com.TestNGDemos.D06DataProviderDemo">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:26 IST" name="beforeTest" finished-at="2026-03-23T22:21:26 IST" duration-ms="28" status="PASS">
+    <test started-at="2026-03-24T22:21:19 IST" name="Parallel Execution" finished-at="2026-03-24T22:21:55 IST" duration-ms="35159">
+      <class name="com.TestNGDemos.D02TestOnlineShopingApps">
+        <test-method signature="testFlipkart()[pri:4, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testFlipkart" finished-at="2026-03-24T22:21:54 IST" duration-ms="34672" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="f(java.lang.Integer,java.lang.String,double)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:26 IST" name="f" data-provider="dp" finished-at="2026-03-23T22:21:26 IST" duration-ms="23" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1.1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testFlipkart -->
+        <test-method signature="testMyntra()[pri:1, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testMyntra" finished-at="2026-03-24T22:21:55 IST" duration-ms="35049" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:26 IST" name="afterMethod" finished-at="2026-03-23T22:21:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testMyntra -->
+        <test-method signature="testMeesho()[pri:3, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testMeesho" finished-at="2026-03-24T22:21:53 IST" duration-ms="33895" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String,double)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:26 IST" name="f" data-provider="dp" finished-at="2026-03-23T22:21:27 IST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2.2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testMeesho -->
+        <test-method signature="testAmazon()[pri:2, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testAmazon" finished-at="2026-03-24T22:21:54 IST" duration-ms="34705" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:27 IST" name="afterMethod" finished-at="2026-03-23T22:21:27 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String,double)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:27 IST" name="f" data-provider="dp" finished-at="2026-03-23T22:21:27 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[c]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:27 IST" name="afterMethod" finished-at="2026-03-23T22:21:27 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-03-23T22:21:27 IST" name="afterTest" finished-at="2026-03-23T22:21:27 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D06DataProviderDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testAmazon -->
+      </class> <!-- com.TestNGDemos.D02TestOnlineShopingApps -->
+    </test> <!-- Parallel Execution -->
+  </suite> <!-- Online Shopping Application Tests -->
 </testng-results>

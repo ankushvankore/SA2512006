@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Tests">
+	<test name = "Execute Group">
+		<groups>
+			<run>
+				<!-- <include name = "CoreLinks"/> -->
+				<exclude name = "CoreLinks"/>
+			</run>
+		</groups>
+		<classes>
+			<class name = "com.TestNGDemos.D05SeleniumAssignment">
+			</class>
+		</classes>
+
+	</test>
+</suite>
