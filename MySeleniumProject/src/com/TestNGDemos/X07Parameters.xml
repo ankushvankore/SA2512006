@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parametrization">
+	<test name = "Passing Parameters">
+		<parameters>
+			<parameter name="userName" value="practice"/>
+			<parameter name="password" value="SuperSecretPassword!"/>
+		</parameters>
+		<classes>
+			<class name = "com.TestNGDemos.D09Parameterization"/>
+		</classes>
+	</test>
+</suite>

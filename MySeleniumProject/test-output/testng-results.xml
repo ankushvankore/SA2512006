@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T22:21:19 IST" name="Online Shopping Application Tests" finished-at="2026-03-24T22:21:55 IST" duration-ms="35159">
+  <suite started-at="2026-03-25T21:58:25 IST" name="Default suite" finished-at="2026-03-25T21:58:43 IST" duration-ms="18723">
     <groups>
     </groups>
-    <test started-at="2026-03-24T22:21:19 IST" name="Parallel Execution" finished-at="2026-03-24T22:21:55 IST" duration-ms="35159">
-      <class name="com.TestNGDemos.D02TestOnlineShopingApps">
-        <test-method signature="testFlipkart()[pri:4, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testFlipkart" finished-at="2026-03-24T22:21:54 IST" duration-ms="34672" status="PASS">
+    <test started-at="2026-03-25T21:58:25 IST" name="Default test" finished-at="2026-03-25T21:58:43 IST" duration-ms="18723">
+      <class name="com.TestNGDemos.D10KeywordDrivenFramework">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:25 IST" name="beforeTest" finished-at="2026-03-25T21:58:39 IST" duration-ms="14749" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlipkart -->
-        <test-method signature="testMyntra()[pri:1, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testMyntra" finished-at="2026-03-24T22:21:55 IST" duration-ms="35049" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="automobileTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:40 IST" name="automobileTest" finished-at="2026-03-25T21:58:43 IST" duration-ms="3872" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyntra -->
-        <test-method signature="testMeesho()[pri:3, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testMeesho" finished-at="2026-03-24T22:21:53 IST" duration-ms="33895" status="PASS">
+        </test-method> <!-- automobileTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:43 IST" name="afterTest" finished-at="2026-03-25T21:58:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMeesho -->
-        <test-method signature="testAmazon()[pri:2, instance:com.TestNGDemos.D02TestOnlineShopingApps@351d00c0]" started-at="2026-03-24T22:21:20 IST" name="testAmazon" finished-at="2026-03-24T22:21:54 IST" duration-ms="34705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazon -->
-      </class> <!-- com.TestNGDemos.D02TestOnlineShopingApps -->
-    </test> <!-- Parallel Execution -->
-  </suite> <!-- Online Shopping Application Tests -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNGDemos.D10KeywordDrivenFramework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -11,5 +11,11 @@ public class RandomDemo {
 		System.out.println(i);
 		
 		System.out.println("number generated is " + i + " with random class");
+		displayName("Sapana");
+	}
+	
+	public static void displayName(String nm) {
+		String n = "Dharmesh";
+		System.out.println("Name: " + nm);
 	}
 }

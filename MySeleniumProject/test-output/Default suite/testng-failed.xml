@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D05SeleniumAssignment">
+      <class name="com.TestNGDemos.D08TypesOfAssertion">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
-          <include name="testDocumentationLink"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
+          <include name="failTest"/>
+          <include name="failTestSoftAssert"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D05SeleniumAssignment -->
+      </class> <!-- com.TestNGDemos.D08TypesOfAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
