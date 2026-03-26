@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T21:58:25 IST" name="Default suite" finished-at="2026-03-25T21:58:43 IST" duration-ms="18723">
+  <suite started-at="2026-03-26T22:24:04 IST" name="Default suite" finished-at="2026-03-26T22:24:06 IST" duration-ms="1679">
     <groups>
     </groups>
-    <test started-at="2026-03-25T21:58:25 IST" name="Default test" finished-at="2026-03-25T21:58:43 IST" duration-ms="18723">
-      <class name="com.TestNGDemos.D10KeywordDrivenFramework">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:25 IST" name="beforeTest" finished-at="2026-03-25T21:58:39 IST" duration-ms="14749" status="PASS">
+    <test started-at="2026-03-26T22:24:04 IST" name="Default test" finished-at="2026-03-26T22:24:06 IST" duration-ms="1679">
+      <class name="com.TestNGDemos.D12WriteDataToExcel">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@10683d9d]" started-at="2026-03-26T22:24:04 IST" name="beforeTest" finished-at="2026-03-26T22:24:05 IST" duration-ms="1050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="automobileTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:40 IST" name="automobileTest" finished-at="2026-03-25T21:58:43 IST" duration-ms="3872" status="PASS">
+        <test-method signature="writeToExcel()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@10683d9d]" started-at="2026-03-26T22:24:05 IST" name="writeToExcel" finished-at="2026-03-26T22:24:06 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- automobileTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10KeywordDrivenFramework@408d971b]" started-at="2026-03-25T21:58:43 IST" name="afterTest" finished-at="2026-03-25T21:58:43 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- writeToExcel -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@10683d9d]" started-at="2026-03-26T22:24:06 IST" name="afterTest" finished-at="2026-03-26T22:24:06 IST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D10KeywordDrivenFramework -->
+      </class> <!-- com.TestNGDemos.D12WriteDataToExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
