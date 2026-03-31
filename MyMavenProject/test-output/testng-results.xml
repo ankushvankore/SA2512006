@@ -1,53 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T21:18:15 IST" name="Failed suite [Default suite]" finished-at="2026-03-31T21:18:22 IST" duration-ms="6666">
+  <suite started-at="2026-03-31T22:10:50 IST" name="Default suite" finished-at="2026-03-31T22:11:09 IST" duration-ms="19140">
     <groups>
     </groups>
-    <test started-at="2026-03-31T21:18:15 IST" name="Default test(failed)" finished-at="2026-03-31T21:18:22 IST" duration-ms="6666">
-      <class name="com.TestNGDemos.D07AssertionDemo">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:15 IST" name="beforeTest" finished-at="2026-03-31T21:18:21 IST" duration-ms="5140" status="PASS">
+    <test started-at="2026-03-31T22:10:50 IST" name="Default test" finished-at="2026-03-31T22:11:09 IST" duration-ms="19140">
+      <class name="com.MyTests.D04DetailedReport">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:10:50 IST" name="beforeTest" finished-at="2026-03-31T22:10:58 IST" duration-ms="8374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginToPracticeTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:21 IST" name="loginToPracticeTest" data-provider="getLoginData" finished-at="2026-03-31T21:18:21 IST" duration-ms="530" status="FAIL">
+        <test-method signature="loginToOHRM_Success()[pri:1, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:10:58 IST" name="loginToOHRM_Success" finished-at="2026-03-31T22:11:05 IST" duration-ms="6493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOHRM_Success -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:05 IST" name="afterMethod" finished-at="2026-03-31T22:11:05 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[meghana]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[meghana123]]>
+                <![CDATA[[TestResult name=loginToOHRM_Success status=SUCCESS method=D04DetailedReport.loginToOHRM_Success()[pri:1, instance:com.MyTests.D04DetailedReport@4c12331b] output={null}]]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM_Fail()[pri:2, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:05 IST" name="loginToOHRM_Fail" finished-at="2026-03-31T22:11:07 IST" duration-ms="2072" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Invalid Credentials!!! expected [true] but found [false]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid Credentials!!! expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at com.TestNGDemos.D07AssertionDemo.loginToPracticeTest(D07AssertionDemo.java:30)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.MyTests.D04DetailedReport.loginToOHRM_Fail(D04DetailedReport.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
@@ -67,48 +71,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToPracticeTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:21 IST" name="afterMethod" finished-at="2026-03-31T21:18:21 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToPracticeTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:21 IST" name="loginToPracticeTest" data-provider="getLoginData" finished-at="2026-03-31T21:18:22 IST" duration-ms="395" status="FAIL">
+        </test-method> <!-- loginToOHRM_Fail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:07 IST" name="afterMethod" finished-at="2026-03-31T22:11:07 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dharmesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dharmesh123]]>
+                <![CDATA[[TestResult name=loginToOHRM_Fail status=FAILURE method=D04DetailedReport.loginToOHRM_Fail()[pri:2, instance:com.MyTests.D04DetailedReport@4c12331b] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginToOHRM_Skip()[pri:3, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:07 IST" name="loginToOHRM_Skip" finished-at="2026-03-31T22:11:07 IST" duration-ms="33" status="SKIP">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Invalid Credentials!!! expected [true] but found [false]]]>
+              <![CDATA[Skipping the test for reporting purpose]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid Credentials!!! expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.TestNGDemos.D07AssertionDemo.loginToPracticeTest(D07AssertionDemo.java:30)
+              <![CDATA[org.testng.SkipException: Skipping the test for reporting purpose
+at com.MyTests.D04DetailedReport.loginToOHRM_Skip(D04DetailedReport.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
@@ -125,19 +121,26 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToPracticeTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:22 IST" name="afterMethod" finished-at="2026-03-31T21:18:22 IST" duration-ms="13" status="PASS">
+        </test-method> <!-- loginToOHRM_Skip -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:07 IST" name="afterMethod" finished-at="2026-03-31T22:11:07 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToOHRM_Skip status=SKIP method=D04DetailedReport.loginToOHRM_Skip()[pri:3, instance:com.MyTests.D04DetailedReport@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D07AssertionDemo@22555ebf]" started-at="2026-03-31T21:18:22 IST" name="afterTest" finished-at="2026-03-31T21:18:22 IST" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.MyTests.D04DetailedReport@4c12331b]" started-at="2026-03-31T22:11:07 IST" name="afterTest" finished-at="2026-03-31T22:11:09 IST" duration-ms="2014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D07AssertionDemo -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+      </class> <!-- com.MyTests.D04DetailedReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
