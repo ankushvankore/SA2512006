@@ -6,8 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/MyCucumberProject/MyCucumberProject/F01GoogleTitle.feature",
+@CucumberOptions(features = "src/test/resources/MyCucumberProject/MyCucumberProject/F03LoginToPracticeTest.feature",
 					glue = "com.StepDefinition")
-public class R0GoogleTitle {
+public class R03LoginToPracticeTest {
 
 }

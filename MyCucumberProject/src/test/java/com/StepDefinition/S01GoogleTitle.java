@@ -14,7 +14,7 @@ public class S01GoogleTitle {
 	WebDriver driver;
 	String title;
 	
-	/*@Given("Launch Google")
+	@Given("Launch Google")
 	public void launch_google() {
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
@@ -32,5 +32,5 @@ public class S01GoogleTitle {
 	public void title_should_be_google() {
 		System.out.println("Title: " + title);
 		Assert.assertTrue(title.equals("Google"));
-	}*/
+	}
 }
